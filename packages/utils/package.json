@@ -1,0 +1,10 @@
+{
+    "name": "@pravah/utils",
+    "version": "0.0.1-prerelease",
+    "module": "src/index.ts",
+    "author": "Mahendra Dambe",
+    "license": "MIT",
+    "scripts": {
+        "build": "bun build.ts"
+    }
+}

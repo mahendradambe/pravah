@@ -1,0 +1,21 @@
+{
+    "name": "pravah",
+    "version": "0.0.1-prerelease",
+    "author": "Mahendra Dambe",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "core": "bun run --cwd packages/core",
+        "std": "bun run --cwd packages/std",
+        "stream": "bun run --cwd packages/stream",
+        "utils": "bun run --cwd packages/utils",
+        "test": "bun test"
+    },
+    "workspaces": [
+        "packages/*"
+    ],
+    "dependencies": {
+        "@types/bun": "1.0.11",
+        "turbo": "1.13.0"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "@pravah/std",
+    "version": "0.0.1-prerelease",
+    "module": "src/index.ts",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "author": "Mahendra Dambe",
+    "scripts": {
+        "build": "bun build.ts"
+    },
+    "license": "MIT",
+    "peerDependencies": {
+        "@pravah/core": "workspace:*",
+        "@pravah/stream": "workspace:*",
+        "pupa": "^3.1.0"
+    },
+    "devDependencies": {
+        "@types/bun": "1.0.11"
+    }
+}
